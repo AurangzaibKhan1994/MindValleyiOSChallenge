@@ -37,6 +37,21 @@
 		74712314230A11270052B88E /* RouterConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122EB230A11260052B88E /* RouterConstants.swift */; };
 		74712315230A11270052B88E /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122EC230A11260052B88E /* AppConstants.swift */; };
 		74712316230A11270052B88E /* JSONResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122EE230A11260052B88E /* JSONResponse.swift */; };
+		74712320230AD1940052B88E /* AdsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471231E230AD1940052B88E /* AdsCollectionViewCell.swift */; };
+		74712321230AD1940052B88E /* AdsCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7471231F230AD1940052B88E /* AdsCollectionViewCell.xib */; };
+		74712325230AD3D00052B88E /* SplashController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74712324230AD3D00052B88E /* SplashController.swift */; };
+		7471232C230AD9590052B88E /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74712328230AD9590052B88E /* MainCoordinator.swift */; };
+		7471232D230AD9590052B88E /* Storyboarded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471232A230AD9590052B88E /* Storyboarded.swift */; };
+		7471232E230AD9590052B88E /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471232B230AD9590052B88E /* Coordinator.swift */; };
+		74712330230ADBBC0052B88E /* AdsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471232F230ADBBC0052B88E /* AdsController.swift */; };
+		74712332230ADDF90052B88E /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74712331230ADDF90052B88E /* Utility.swift */; };
+		74712334230ADFED0052B88E /* BaseLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74712333230ADFED0052B88E /* BaseLayoutConstraint.swift */; };
+		74712336230AE09A0052B88E /* DesignUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74712335230AE09A0052B88E /* DesignUtility.swift */; };
+		74712338230AE1140052B88E /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74712337230AE1140052B88E /* FontManager.swift */; };
+		7471233A230AE1610052B88E /* BaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74712339230AE1610052B88E /* BaseManager.swift */; };
+		7471233C230AEBCC0052B88E /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471233B230AEBCC0052B88E /* PinterestLayout.swift */; };
+		7471233F230B2D830052B88E /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471233E230B2D830052B88E /* Photo.swift */; };
+		74712341230B45580052B88E /* Photos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74712340230B45570052B88E /* Photos.plist */; };
 		747FA1C5230A0F5500FE8BF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747FA1C4230A0F5500FE8BF5 /* AppDelegate.swift */; };
 		747FA1C7230A0F5500FE8BF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747FA1C6230A0F5500FE8BF5 /* ViewController.swift */; };
 		747FA1CA230A0F5500FE8BF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747FA1C8230A0F5500FE8BF5 /* Main.storyboard */; };
@@ -102,6 +117,21 @@
 		747122EB230A11260052B88E /* RouterConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterConstants.swift; sourceTree = "<group>"; };
 		747122EC230A11260052B88E /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
 		747122EE230A11260052B88E /* JSONResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONResponse.swift; sourceTree = "<group>"; };
+		7471231E230AD1940052B88E /* AdsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsCollectionViewCell.swift; sourceTree = "<group>"; };
+		7471231F230AD1940052B88E /* AdsCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdsCollectionViewCell.xib; sourceTree = "<group>"; };
+		74712324230AD3D00052B88E /* SplashController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashController.swift; sourceTree = "<group>"; };
+		74712328230AD9590052B88E /* MainCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		7471232A230AD9590052B88E /* Storyboarded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboarded.swift; sourceTree = "<group>"; };
+		7471232B230AD9590052B88E /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		7471232F230ADBBC0052B88E /* AdsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsController.swift; sourceTree = "<group>"; };
+		74712331230ADDF90052B88E /* Utility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		74712333230ADFED0052B88E /* BaseLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseLayoutConstraint.swift; sourceTree = "<group>"; };
+		74712335230AE09A0052B88E /* DesignUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignUtility.swift; sourceTree = "<group>"; };
+		74712337230AE1140052B88E /* FontManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		74712339230AE1610052B88E /* BaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseManager.swift; sourceTree = "<group>"; };
+		7471233B230AEBCC0052B88E /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
+		7471233E230B2D830052B88E /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
+		74712340230B45570052B88E /* Photos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Photos.plist; sourceTree = "<group>"; };
 		747FA1C1230A0F5500FE8BF5 /* MindValleyiOSChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindValleyiOSChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		747FA1C4230A0F5500FE8BF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../../Documents/Aurangzaib/MindValleyiOSChallenge/MindValleyiOSChallenge/MindValleyiOSChallenge/AppDelegate.swift; sourceTree = "<group>"; };
 		747FA1C6230A0F5500FE8BF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../Documents/Aurangzaib/MindValleyiOSChallenge/MindValleyiOSChallenge/MindValleyiOSChallenge/ViewController.swift; sourceTree = "<group>"; };
@@ -214,6 +244,8 @@
 		747122D4230A11260052B88E /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				74712323230AD3B30052B88E /* AdsModule */,
+				74712322230AD3830052B88E /* SplashModule */,
 				747FA1C6230A0F5500FE8BF5 /* ViewController.swift */,
 			);
 			name = ViewControllers;
@@ -258,6 +290,7 @@
 		747122ED230A11260052B88E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				7471233D230B2D690052B88E /* AdsData */,
 				747122EE230A11260052B88E /* JSONResponse.swift */,
 			);
 			name = Models;
@@ -267,22 +300,102 @@
 		747122EF230A11270052B88E /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				747FA1CB230A0F5600FE8BF5 /* Assets.xcassets */,
+				74712339230AE1610052B88E /* BaseManager.swift */,
+				74712337230AE1140052B88E /* FontManager.swift */,
+				74712335230AE09A0052B88E /* DesignUtility.swift */,
 				747FA1C4230A0F5500FE8BF5 /* AppDelegate.swift */,
+				747FA1CB230A0F5600FE8BF5 /* Assets.xcassets */,
+				74712333230ADFED0052B88E /* BaseLayoutConstraint.swift */,
+				74712331230ADDF90052B88E /* Utility.swift */,
 			);
 			name = Helpers;
 			path = "../../../../../Downloads/MyiOSAppStructure-master/MyAppStructure/Helpers";
 			sourceTree = "<group>";
 		};
+		7471231B230AD1080052B88E /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				7471231D230AD1380052B88E /* AdsCollectionViewCell */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		7471231C230AD1170052B88E /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		7471231D230AD1380052B88E /* AdsCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				7471231E230AD1940052B88E /* AdsCollectionViewCell.swift */,
+				7471231F230AD1940052B88E /* AdsCollectionViewCell.xib */,
+				7471233B230AEBCC0052B88E /* PinterestLayout.swift */,
+			);
+			path = AdsCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		74712322230AD3830052B88E /* SplashModule */ = {
+			isa = PBXGroup;
+			children = (
+				74712324230AD3D00052B88E /* SplashController.swift */,
+			);
+			path = SplashModule;
+			sourceTree = "<group>";
+		};
+		74712323230AD3B30052B88E /* AdsModule */ = {
+			isa = PBXGroup;
+			children = (
+				7471232F230ADBBC0052B88E /* AdsController.swift */,
+			);
+			path = AdsModule;
+			sourceTree = "<group>";
+		};
+		74712326230AD9590052B88E /* App Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				74712327230AD9590052B88E /* Navigator */,
+				74712329230AD9590052B88E /* Protocols */,
+			);
+			path = "App Navigation";
+			sourceTree = "<group>";
+		};
+		74712327230AD9590052B88E /* Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				74712328230AD9590052B88E /* MainCoordinator.swift */,
+			);
+			path = Navigator;
+			sourceTree = "<group>";
+		};
+		74712329230AD9590052B88E /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				7471232A230AD9590052B88E /* Storyboarded.swift */,
+				7471232B230AD9590052B88E /* Coordinator.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		7471233D230B2D690052B88E /* AdsData */ = {
+			isa = PBXGroup;
+			children = (
+				7471233E230B2D830052B88E /* Photo.swift */,
+			);
+			path = AdsData;
+			sourceTree = "<group>";
+		};
 		747FA1B8230A0F5500FE8BF5 = {
 			isa = PBXGroup;
 			children = (
+				7D2DDFCD1ADC290542DC1F15 /* Frameworks */,
 				747FA1C3230A0F5500FE8BF5 /* MindValleyiOSChallenge */,
 				747FA1D8230A0F5600FE8BF5 /* MindValleyiOSChallengeTests */,
 				747FA1E3230A0F5600FE8BF5 /* MindValleyiOSChallengeUITests */,
-				747FA1C2230A0F5500FE8BF5 /* Products */,
 				43C0C7DE50E52BA11AD3EDBE /* Pods */,
-				7D2DDFCD1ADC290542DC1F15 /* Frameworks */,
+				747FA1C2230A0F5500FE8BF5 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -299,15 +412,19 @@
 		747FA1C3230A0F5500FE8BF5 /* MindValleyiOSChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				74712340230B45570052B88E /* Photos.plist */,
+				74712326230AD9590052B88E /* App Navigation */,
 				747122EA230A11260052B88E /* Constants */,
+				7471231B230AD1080052B88E /* CustomCells */,
+				7471231C230AD1170052B88E /* CustomViews */,
 				747122D6230A11260052B88E /* Extensions */,
 				747122C6230A11260052B88E /* Fonts */,
 				747122EF230A11270052B88E /* Helpers */,
+				747FA1D0230A0F5600FE8BF5 /* Info.plist */,
 				747122ED230A11260052B88E /* Models */,
 				747122CE230A11260052B88E /* Networking */,
 				747122C1230A11260052B88E /* Storyboards */,
 				747122D4230A11260052B88E /* ViewControllers */,
-				747FA1D0230A0F5600FE8BF5 /* Info.plist */,
 			);
 			path = MindValleyiOSChallenge;
 			sourceTree = "<group>";
@@ -454,10 +571,12 @@
 				747122FA230A11270052B88E /* GOTHIC.TTF in Resources */,
 				747122FC230A11270052B88E /* GOTHICB0.TTF in Resources */,
 				747122F6230A11270052B88E /* CenturyGothic.ttf in Resources */,
+				74712321230AD1940052B88E /* AdsCollectionViewCell.xib in Resources */,
 				747FA1CC230A0F5600FE8BF5 /* Assets.xcassets in Resources */,
 				747FA1CA230A0F5500FE8BF5 /* Main.storyboard in Resources */,
 				747122F9230A11270052B88E /* Century Gothic.ttf in Resources */,
 				747122F8230A11270052B88E /* GOTHICB.ttf in Resources */,
+				74712341230B45580052B88E /* Photos.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,29 +688,42 @@
 			buildActionMask = 2147483647;
 			files = (
 				74712301230A11270052B88E /* UIImage+Additions.swift in Sources */,
+				7471233F230B2D830052B88E /* Photo.swift in Sources */,
 				74712306230A11270052B88E /* UITableView+UIRefresehControl.swift in Sources */,
 				74712308230A11270052B88E /* UIImageView+Additions.swift in Sources */,
+				74712336230AE09A0052B88E /* DesignUtility.swift in Sources */,
 				74712313230A11270052B88E /* Dictionary+Additions.swift in Sources */,
 				7471230F230A11270052B88E /* NSDate+Additions.swift in Sources */,
 				74712316230A11270052B88E /* JSONResponse.swift in Sources */,
 				74712303230A11270052B88E /* SearchTextField+TextPadding.swift in Sources */,
 				747122FD230A11270052B88E /* RouterProtocol.swift in Sources */,
+				74712330230ADBBC0052B88E /* AdsController.swift in Sources */,
 				747FA1C7230A0F5500FE8BF5 /* ViewController.swift in Sources */,
 				7471230D230A11270052B88E /* Encodable+Dictionary.swift in Sources */,
 				7471230C230A11270052B88E /* UIScrollView+Additions.swift in Sources */,
 				74712305230A11270052B88E /* UIColor+Additions.swift in Sources */,
+				74712320230AD1940052B88E /* AdsCollectionViewCell.swift in Sources */,
 				7471230B230A11270052B88E /* UITextField+Additions.swift in Sources */,
 				74712302230A11270052B88E /* UIView+Additions.swift in Sources */,
 				74712309230A11270052B88E /* UIFont+CenturyGothic.swift in Sources */,
+				74712338230AE1140052B88E /* FontManager.swift in Sources */,
 				747122FF230A11270052B88E /* APIClient.swift in Sources */,
+				7471233A230AE1610052B88E /* BaseManager.swift in Sources */,
 				74712315230A11270052B88E /* AppConstants.swift in Sources */,
+				74712334230ADFED0052B88E /* BaseLayoutConstraint.swift in Sources */,
+				7471232E230AD9590052B88E /* Coordinator.swift in Sources */,
+				7471233C230AEBCC0052B88E /* PinterestLayout.swift in Sources */,
+				74712325230AD3D00052B88E /* SplashController.swift in Sources */,
 				7471230E230A11270052B88E /* NSError+Additions.swift in Sources */,
 				7471230A230A11270052B88E /* NSArray+Additions.swift in Sources */,
 				74712304230A11270052B88E /* UIViewController+Additions.swift in Sources */,
 				74712312230A11270052B88E /* UITextView+Additions.swift in Sources */,
 				74712307230A11270052B88E /* UIApplication+Additions.swift in Sources */,
+				74712332230ADDF90052B88E /* Utility.swift in Sources */,
 				74712314230A11270052B88E /* RouterConstants.swift in Sources */,
+				7471232C230AD9590052B88E /* MainCoordinator.swift in Sources */,
 				747FA1C5230A0F5500FE8BF5 /* AppDelegate.swift in Sources */,
+				7471232D230AD9590052B88E /* Storyboarded.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
