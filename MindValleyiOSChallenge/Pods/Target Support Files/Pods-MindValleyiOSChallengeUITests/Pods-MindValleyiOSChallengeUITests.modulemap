@@ -1,0 +1,6 @@
+framework module Pods_MindValleyiOSChallengeUITests {
+  umbrella header "Pods-MindValleyiOSChallengeUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

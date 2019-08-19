@@ -1,0 +1,931 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C964631F9C7F73D4DCCC011 /* Pods_MindValleyiOSChallengeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45871C0AFA79DF0BCD700962 /* Pods_MindValleyiOSChallengeTests.framework */; };
+		747122F6230A11270052B88E /* CenturyGothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 747122C7230A11260052B88E /* CenturyGothic.ttf */; };
+		747122F7230A11270052B88E /* GOTHICBI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 747122C8230A11260052B88E /* GOTHICBI.TTF */; };
+		747122F8230A11270052B88E /* GOTHICB.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 747122C9230A11260052B88E /* GOTHICB.ttf */; };
+		747122F9230A11270052B88E /* Century Gothic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 747122CA230A11260052B88E /* Century Gothic.ttf */; };
+		747122FA230A11270052B88E /* GOTHIC.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 747122CB230A11260052B88E /* GOTHIC.TTF */; };
+		747122FB230A11270052B88E /* GOTHICI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 747122CC230A11260052B88E /* GOTHICI.TTF */; };
+		747122FC230A11270052B88E /* GOTHICB0.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 747122CD230A11260052B88E /* GOTHICB0.TTF */; };
+		747122FD230A11270052B88E /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122D0230A11260052B88E /* RouterProtocol.swift */; };
+		747122FF230A11270052B88E /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122D3230A11260052B88E /* APIClient.swift */; };
+		74712301230A11270052B88E /* UIImage+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122D7230A11260052B88E /* UIImage+Additions.swift */; };
+		74712302230A11270052B88E /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122D8230A11260052B88E /* UIView+Additions.swift */; };
+		74712303230A11270052B88E /* SearchTextField+TextPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122D9230A11260052B88E /* SearchTextField+TextPadding.swift */; };
+		74712304230A11270052B88E /* UIViewController+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122DA230A11260052B88E /* UIViewController+Additions.swift */; };
+		74712305230A11270052B88E /* UIColor+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122DB230A11260052B88E /* UIColor+Additions.swift */; };
+		74712306230A11270052B88E /* UITableView+UIRefresehControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122DC230A11260052B88E /* UITableView+UIRefresehControl.swift */; };
+		74712307230A11270052B88E /* UIApplication+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122DD230A11260052B88E /* UIApplication+Additions.swift */; };
+		74712308230A11270052B88E /* UIImageView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122DE230A11260052B88E /* UIImageView+Additions.swift */; };
+		74712309230A11270052B88E /* UIFont+CenturyGothic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122DF230A11260052B88E /* UIFont+CenturyGothic.swift */; };
+		7471230A230A11270052B88E /* NSArray+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122E0230A11260052B88E /* NSArray+Additions.swift */; };
+		7471230B230A11270052B88E /* UITextField+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122E1230A11260052B88E /* UITextField+Additions.swift */; };
+		7471230C230A11270052B88E /* UIScrollView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122E2230A11260052B88E /* UIScrollView+Additions.swift */; };
+		7471230D230A11270052B88E /* Encodable+Dictionary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122E3230A11260052B88E /* Encodable+Dictionary.swift */; };
+		7471230E230A11270052B88E /* NSError+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122E4230A11260052B88E /* NSError+Additions.swift */; };
+		7471230F230A11270052B88E /* NSDate+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122E5230A11260052B88E /* NSDate+Additions.swift */; };
+		74712312230A11270052B88E /* UITextView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122E8230A11260052B88E /* UITextView+Additions.swift */; };
+		74712313230A11270052B88E /* Dictionary+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122E9230A11260052B88E /* Dictionary+Additions.swift */; };
+		74712314230A11270052B88E /* RouterConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122EB230A11260052B88E /* RouterConstants.swift */; };
+		74712315230A11270052B88E /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122EC230A11260052B88E /* AppConstants.swift */; };
+		74712316230A11270052B88E /* JSONResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122EE230A11260052B88E /* JSONResponse.swift */; };
+		747FA1C5230A0F5500FE8BF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747FA1C4230A0F5500FE8BF5 /* AppDelegate.swift */; };
+		747FA1C7230A0F5500FE8BF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747FA1C6230A0F5500FE8BF5 /* ViewController.swift */; };
+		747FA1CA230A0F5500FE8BF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747FA1C8230A0F5500FE8BF5 /* Main.storyboard */; };
+		747FA1CC230A0F5600FE8BF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 747FA1CB230A0F5600FE8BF5 /* Assets.xcassets */; };
+		747FA1CF230A0F5600FE8BF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747FA1CD230A0F5600FE8BF5 /* LaunchScreen.storyboard */; };
+		747FA1DA230A0F5600FE8BF5 /* MindValleyiOSChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747FA1D9230A0F5600FE8BF5 /* MindValleyiOSChallengeTests.swift */; };
+		747FA1E5230A0F5600FE8BF5 /* MindValleyiOSChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747FA1E4230A0F5600FE8BF5 /* MindValleyiOSChallengeUITests.swift */; };
+		779EBAED6121ED8118AE702A /* Pods_MindValleyiOSChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091B736E43272236F46F4989 /* Pods_MindValleyiOSChallengeUITests.framework */; };
+		96F4DDACDF801923C3E10A84 /* Pods_MindValleyiOSChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A46C4B99A6DCCC66C13D812 /* Pods_MindValleyiOSChallenge.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		747FA1D6230A0F5600FE8BF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 747FA1B9230A0F5500FE8BF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 747FA1C0230A0F5500FE8BF5;
+			remoteInfo = MindValleyiOSChallenge;
+		};
+		747FA1E1230A0F5600FE8BF5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 747FA1B9230A0F5500FE8BF5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 747FA1C0230A0F5500FE8BF5;
+			remoteInfo = MindValleyiOSChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0356ABDA5641CD592E98E768 /* Pods-MindValleyiOSChallengeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindValleyiOSChallengeTests.release.xcconfig"; path = "Target Support Files/Pods-MindValleyiOSChallengeTests/Pods-MindValleyiOSChallengeTests.release.xcconfig"; sourceTree = "<group>"; };
+		091B736E43272236F46F4989 /* Pods_MindValleyiOSChallengeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindValleyiOSChallengeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A46C4B99A6DCCC66C13D812 /* Pods_MindValleyiOSChallenge.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindValleyiOSChallenge.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45871C0AFA79DF0BCD700962 /* Pods_MindValleyiOSChallengeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MindValleyiOSChallengeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CABCD97C5D43426215D40B8 /* Pods-MindValleyiOSChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindValleyiOSChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-MindValleyiOSChallengeTests/Pods-MindValleyiOSChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		60BCD9076D8504294D91AC73 /* Pods-MindValleyiOSChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindValleyiOSChallenge.debug.xcconfig"; path = "Target Support Files/Pods-MindValleyiOSChallenge/Pods-MindValleyiOSChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		721BA06C8C519BFF38ECCC94 /* Pods-MindValleyiOSChallengeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindValleyiOSChallengeUITests.release.xcconfig"; path = "Target Support Files/Pods-MindValleyiOSChallengeUITests/Pods-MindValleyiOSChallengeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		747122C7230A11260052B88E /* CenturyGothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = CenturyGothic.ttf; sourceTree = "<group>"; };
+		747122C8230A11260052B88E /* GOTHICBI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICBI.TTF; sourceTree = "<group>"; };
+		747122C9230A11260052B88E /* GOTHICB.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICB.ttf; sourceTree = "<group>"; };
+		747122CA230A11260052B88E /* Century Gothic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Century Gothic.ttf"; sourceTree = "<group>"; };
+		747122CB230A11260052B88E /* GOTHIC.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHIC.TTF; sourceTree = "<group>"; };
+		747122CC230A11260052B88E /* GOTHICI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICI.TTF; sourceTree = "<group>"; };
+		747122CD230A11260052B88E /* GOTHICB0.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICB0.TTF; sourceTree = "<group>"; };
+		747122D0230A11260052B88E /* RouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterProtocol.swift; sourceTree = "<group>"; };
+		747122D3230A11260052B88E /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		747122D7230A11260052B88E /* UIImage+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Additions.swift"; sourceTree = "<group>"; };
+		747122D8230A11260052B88E /* UIView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
+		747122D9230A11260052B88E /* SearchTextField+TextPadding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SearchTextField+TextPadding.swift"; sourceTree = "<group>"; };
+		747122DA230A11260052B88E /* UIViewController+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Additions.swift"; sourceTree = "<group>"; };
+		747122DB230A11260052B88E /* UIColor+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Additions.swift"; sourceTree = "<group>"; };
+		747122DC230A11260052B88E /* UITableView+UIRefresehControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+UIRefresehControl.swift"; sourceTree = "<group>"; };
+		747122DD230A11260052B88E /* UIApplication+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+Additions.swift"; sourceTree = "<group>"; };
+		747122DE230A11260052B88E /* UIImageView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Additions.swift"; sourceTree = "<group>"; };
+		747122DF230A11260052B88E /* UIFont+CenturyGothic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+CenturyGothic.swift"; sourceTree = "<group>"; };
+		747122E0230A11260052B88E /* NSArray+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSArray+Additions.swift"; sourceTree = "<group>"; };
+		747122E1230A11260052B88E /* UITextField+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextField+Additions.swift"; sourceTree = "<group>"; };
+		747122E2230A11260052B88E /* UIScrollView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIScrollView+Additions.swift"; sourceTree = "<group>"; };
+		747122E3230A11260052B88E /* Encodable+Dictionary.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Encodable+Dictionary.swift"; sourceTree = "<group>"; };
+		747122E4230A11260052B88E /* NSError+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSError+Additions.swift"; sourceTree = "<group>"; };
+		747122E5230A11260052B88E /* NSDate+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSDate+Additions.swift"; sourceTree = "<group>"; };
+		747122E8230A11260052B88E /* UITextView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITextView+Additions.swift"; sourceTree = "<group>"; };
+		747122E9230A11260052B88E /* Dictionary+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Additions.swift"; sourceTree = "<group>"; };
+		747122EB230A11260052B88E /* RouterConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterConstants.swift; sourceTree = "<group>"; };
+		747122EC230A11260052B88E /* AppConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		747122EE230A11260052B88E /* JSONResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSONResponse.swift; sourceTree = "<group>"; };
+		747FA1C1230A0F5500FE8BF5 /* MindValleyiOSChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindValleyiOSChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		747FA1C4230A0F5500FE8BF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../../Documents/Aurangzaib/MindValleyiOSChallenge/MindValleyiOSChallenge/MindValleyiOSChallenge/AppDelegate.swift; sourceTree = "<group>"; };
+		747FA1C6230A0F5500FE8BF5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../Documents/Aurangzaib/MindValleyiOSChallenge/MindValleyiOSChallenge/MindValleyiOSChallenge/ViewController.swift; sourceTree = "<group>"; };
+		747FA1C9230A0F5500FE8BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		747FA1CB230A0F5600FE8BF5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../../Documents/Aurangzaib/MindValleyiOSChallenge/MindValleyiOSChallenge/MindValleyiOSChallenge/Assets.xcassets; sourceTree = "<group>"; };
+		747FA1CE230A0F5600FE8BF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		747FA1D0230A0F5600FE8BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		747FA1D5230A0F5600FE8BF5 /* MindValleyiOSChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindValleyiOSChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		747FA1D9230A0F5600FE8BF5 /* MindValleyiOSChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindValleyiOSChallengeTests.swift; sourceTree = "<group>"; };
+		747FA1DB230A0F5600FE8BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		747FA1E0230A0F5600FE8BF5 /* MindValleyiOSChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindValleyiOSChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		747FA1E4230A0F5600FE8BF5 /* MindValleyiOSChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindValleyiOSChallengeUITests.swift; sourceTree = "<group>"; };
+		747FA1E6230A0F5600FE8BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8137D0CA531503C19F6251FC /* Pods-MindValleyiOSChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindValleyiOSChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-MindValleyiOSChallengeUITests/Pods-MindValleyiOSChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D59C3B1E9E33CF924F8960CF /* Pods-MindValleyiOSChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindValleyiOSChallenge.release.xcconfig"; path = "Target Support Files/Pods-MindValleyiOSChallenge/Pods-MindValleyiOSChallenge.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		747FA1BE230A0F5500FE8BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96F4DDACDF801923C3E10A84 /* Pods_MindValleyiOSChallenge.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		747FA1D2230A0F5600FE8BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C964631F9C7F73D4DCCC011 /* Pods_MindValleyiOSChallengeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		747FA1DD230A0F5600FE8BF5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				779EBAED6121ED8118AE702A /* Pods_MindValleyiOSChallengeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43C0C7DE50E52BA11AD3EDBE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60BCD9076D8504294D91AC73 /* Pods-MindValleyiOSChallenge.debug.xcconfig */,
+				D59C3B1E9E33CF924F8960CF /* Pods-MindValleyiOSChallenge.release.xcconfig */,
+				5CABCD97C5D43426215D40B8 /* Pods-MindValleyiOSChallengeTests.debug.xcconfig */,
+				0356ABDA5641CD592E98E768 /* Pods-MindValleyiOSChallengeTests.release.xcconfig */,
+				8137D0CA531503C19F6251FC /* Pods-MindValleyiOSChallengeUITests.debug.xcconfig */,
+				721BA06C8C519BFF38ECCC94 /* Pods-MindValleyiOSChallengeUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		747122C1230A11260052B88E /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				747FA1C8230A0F5500FE8BF5 /* Main.storyboard */,
+				747FA1CD230A0F5600FE8BF5 /* LaunchScreen.storyboard */,
+			);
+			name = Storyboards;
+			path = "../../../../../Downloads/MyiOSAppStructure-master/MyAppStructure/Storyboards";
+			sourceTree = "<group>";
+		};
+		747122C6230A11260052B88E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				747122C7230A11260052B88E /* CenturyGothic.ttf */,
+				747122C8230A11260052B88E /* GOTHICBI.TTF */,
+				747122C9230A11260052B88E /* GOTHICB.ttf */,
+				747122CA230A11260052B88E /* Century Gothic.ttf */,
+				747122CB230A11260052B88E /* GOTHIC.TTF */,
+				747122CC230A11260052B88E /* GOTHICI.TTF */,
+				747122CD230A11260052B88E /* GOTHICB0.TTF */,
+			);
+			name = Fonts;
+			path = "../../../../../Downloads/MyiOSAppStructure-master/MyAppStructure/Fonts";
+			sourceTree = "<group>";
+		};
+		747122CE230A11260052B88E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				747122CF230A11260052B88E /* Routers */,
+				747122D2230A11260052B88E /* APIClient */,
+			);
+			name = Networking;
+			path = "../../../../../Downloads/MyiOSAppStructure-master/MyAppStructure/Networking";
+			sourceTree = "<group>";
+		};
+		747122CF230A11260052B88E /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				747122D0230A11260052B88E /* RouterProtocol.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		747122D2230A11260052B88E /* APIClient */ = {
+			isa = PBXGroup;
+			children = (
+				747122D3230A11260052B88E /* APIClient.swift */,
+			);
+			path = APIClient;
+			sourceTree = "<group>";
+		};
+		747122D4230A11260052B88E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				747FA1C6230A0F5500FE8BF5 /* ViewController.swift */,
+			);
+			name = ViewControllers;
+			path = "../../../../../Downloads/MyiOSAppStructure-master/MyAppStructure/ViewControllers";
+			sourceTree = "<group>";
+		};
+		747122D6230A11260052B88E /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				747122D7230A11260052B88E /* UIImage+Additions.swift */,
+				747122D8230A11260052B88E /* UIView+Additions.swift */,
+				747122D9230A11260052B88E /* SearchTextField+TextPadding.swift */,
+				747122DA230A11260052B88E /* UIViewController+Additions.swift */,
+				747122DB230A11260052B88E /* UIColor+Additions.swift */,
+				747122DC230A11260052B88E /* UITableView+UIRefresehControl.swift */,
+				747122DD230A11260052B88E /* UIApplication+Additions.swift */,
+				747122DE230A11260052B88E /* UIImageView+Additions.swift */,
+				747122DF230A11260052B88E /* UIFont+CenturyGothic.swift */,
+				747122E0230A11260052B88E /* NSArray+Additions.swift */,
+				747122E1230A11260052B88E /* UITextField+Additions.swift */,
+				747122E2230A11260052B88E /* UIScrollView+Additions.swift */,
+				747122E3230A11260052B88E /* Encodable+Dictionary.swift */,
+				747122E4230A11260052B88E /* NSError+Additions.swift */,
+				747122E5230A11260052B88E /* NSDate+Additions.swift */,
+				747122E8230A11260052B88E /* UITextView+Additions.swift */,
+				747122E9230A11260052B88E /* Dictionary+Additions.swift */,
+			);
+			name = Extensions;
+			path = "../../../../../Downloads/MyiOSAppStructure-master/MyAppStructure/Extensions";
+			sourceTree = "<group>";
+		};
+		747122EA230A11260052B88E /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				747122EB230A11260052B88E /* RouterConstants.swift */,
+				747122EC230A11260052B88E /* AppConstants.swift */,
+			);
+			name = Constants;
+			path = "../../../../../Downloads/MyiOSAppStructure-master/MyAppStructure/Constants";
+			sourceTree = "<group>";
+		};
+		747122ED230A11260052B88E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				747122EE230A11260052B88E /* JSONResponse.swift */,
+			);
+			name = Models;
+			path = "../../../../../Downloads/MyiOSAppStructure-master/MyAppStructure/Models";
+			sourceTree = "<group>";
+		};
+		747122EF230A11270052B88E /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				747FA1CB230A0F5600FE8BF5 /* Assets.xcassets */,
+				747FA1C4230A0F5500FE8BF5 /* AppDelegate.swift */,
+			);
+			name = Helpers;
+			path = "../../../../../Downloads/MyiOSAppStructure-master/MyAppStructure/Helpers";
+			sourceTree = "<group>";
+		};
+		747FA1B8230A0F5500FE8BF5 = {
+			isa = PBXGroup;
+			children = (
+				747FA1C3230A0F5500FE8BF5 /* MindValleyiOSChallenge */,
+				747FA1D8230A0F5600FE8BF5 /* MindValleyiOSChallengeTests */,
+				747FA1E3230A0F5600FE8BF5 /* MindValleyiOSChallengeUITests */,
+				747FA1C2230A0F5500FE8BF5 /* Products */,
+				43C0C7DE50E52BA11AD3EDBE /* Pods */,
+				7D2DDFCD1ADC290542DC1F15 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		747FA1C2230A0F5500FE8BF5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				747FA1C1230A0F5500FE8BF5 /* MindValleyiOSChallenge.app */,
+				747FA1D5230A0F5600FE8BF5 /* MindValleyiOSChallengeTests.xctest */,
+				747FA1E0230A0F5600FE8BF5 /* MindValleyiOSChallengeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		747FA1C3230A0F5500FE8BF5 /* MindValleyiOSChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				747122EA230A11260052B88E /* Constants */,
+				747122D6230A11260052B88E /* Extensions */,
+				747122C6230A11260052B88E /* Fonts */,
+				747122EF230A11270052B88E /* Helpers */,
+				747122ED230A11260052B88E /* Models */,
+				747122CE230A11260052B88E /* Networking */,
+				747122C1230A11260052B88E /* Storyboards */,
+				747122D4230A11260052B88E /* ViewControllers */,
+				747FA1D0230A0F5600FE8BF5 /* Info.plist */,
+			);
+			path = MindValleyiOSChallenge;
+			sourceTree = "<group>";
+		};
+		747FA1D8230A0F5600FE8BF5 /* MindValleyiOSChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				747FA1D9230A0F5600FE8BF5 /* MindValleyiOSChallengeTests.swift */,
+				747FA1DB230A0F5600FE8BF5 /* Info.plist */,
+			);
+			path = MindValleyiOSChallengeTests;
+			sourceTree = "<group>";
+		};
+		747FA1E3230A0F5600FE8BF5 /* MindValleyiOSChallengeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				747FA1E4230A0F5600FE8BF5 /* MindValleyiOSChallengeUITests.swift */,
+				747FA1E6230A0F5600FE8BF5 /* Info.plist */,
+			);
+			path = MindValleyiOSChallengeUITests;
+			sourceTree = "<group>";
+		};
+		7D2DDFCD1ADC290542DC1F15 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A46C4B99A6DCCC66C13D812 /* Pods_MindValleyiOSChallenge.framework */,
+				45871C0AFA79DF0BCD700962 /* Pods_MindValleyiOSChallengeTests.framework */,
+				091B736E43272236F46F4989 /* Pods_MindValleyiOSChallengeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		747FA1C0230A0F5500FE8BF5 /* MindValleyiOSChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 747FA1E9230A0F5600FE8BF5 /* Build configuration list for PBXNativeTarget "MindValleyiOSChallenge" */;
+			buildPhases = (
+				34BCB8A7D2F6BB382E91AF39 /* [CP] Check Pods Manifest.lock */,
+				747FA1BD230A0F5500FE8BF5 /* Sources */,
+				747FA1BE230A0F5500FE8BF5 /* Frameworks */,
+				747FA1BF230A0F5500FE8BF5 /* Resources */,
+				CB509A9CF4E4C862B50CD224 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MindValleyiOSChallenge;
+			productName = MindValleyiOSChallenge;
+			productReference = 747FA1C1230A0F5500FE8BF5 /* MindValleyiOSChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		747FA1D4230A0F5600FE8BF5 /* MindValleyiOSChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 747FA1EC230A0F5600FE8BF5 /* Build configuration list for PBXNativeTarget "MindValleyiOSChallengeTests" */;
+			buildPhases = (
+				888BF84B3602375C9744C38E /* [CP] Check Pods Manifest.lock */,
+				747FA1D1230A0F5600FE8BF5 /* Sources */,
+				747FA1D2230A0F5600FE8BF5 /* Frameworks */,
+				747FA1D3230A0F5600FE8BF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				747FA1D7230A0F5600FE8BF5 /* PBXTargetDependency */,
+			);
+			name = MindValleyiOSChallengeTests;
+			productName = MindValleyiOSChallengeTests;
+			productReference = 747FA1D5230A0F5600FE8BF5 /* MindValleyiOSChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		747FA1DF230A0F5600FE8BF5 /* MindValleyiOSChallengeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 747FA1EF230A0F5600FE8BF5 /* Build configuration list for PBXNativeTarget "MindValleyiOSChallengeUITests" */;
+			buildPhases = (
+				7B4EC8E2312A219F95D7871C /* [CP] Check Pods Manifest.lock */,
+				747FA1DC230A0F5600FE8BF5 /* Sources */,
+				747FA1DD230A0F5600FE8BF5 /* Frameworks */,
+				747FA1DE230A0F5600FE8BF5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				747FA1E2230A0F5600FE8BF5 /* PBXTargetDependency */,
+			);
+			name = MindValleyiOSChallengeUITests;
+			productName = MindValleyiOSChallengeUITests;
+			productReference = 747FA1E0230A0F5600FE8BF5 /* MindValleyiOSChallengeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		747FA1B9230A0F5500FE8BF5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Aurangzaib;
+				TargetAttributes = {
+					747FA1C0230A0F5500FE8BF5 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					747FA1D4230A0F5600FE8BF5 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 747FA1C0230A0F5500FE8BF5;
+					};
+					747FA1DF230A0F5600FE8BF5 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 747FA1C0230A0F5500FE8BF5;
+					};
+				};
+			};
+			buildConfigurationList = 747FA1BC230A0F5500FE8BF5 /* Build configuration list for PBXProject "MindValleyiOSChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 747FA1B8230A0F5500FE8BF5;
+			productRefGroup = 747FA1C2230A0F5500FE8BF5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				747FA1C0230A0F5500FE8BF5 /* MindValleyiOSChallenge */,
+				747FA1D4230A0F5600FE8BF5 /* MindValleyiOSChallengeTests */,
+				747FA1DF230A0F5600FE8BF5 /* MindValleyiOSChallengeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		747FA1BF230A0F5500FE8BF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				747122F7230A11270052B88E /* GOTHICBI.TTF in Resources */,
+				747122FB230A11270052B88E /* GOTHICI.TTF in Resources */,
+				747FA1CF230A0F5600FE8BF5 /* LaunchScreen.storyboard in Resources */,
+				747122FA230A11270052B88E /* GOTHIC.TTF in Resources */,
+				747122FC230A11270052B88E /* GOTHICB0.TTF in Resources */,
+				747122F6230A11270052B88E /* CenturyGothic.ttf in Resources */,
+				747FA1CC230A0F5600FE8BF5 /* Assets.xcassets in Resources */,
+				747FA1CA230A0F5500FE8BF5 /* Main.storyboard in Resources */,
+				747122F9230A11270052B88E /* Century Gothic.ttf in Resources */,
+				747122F8230A11270052B88E /* GOTHICB.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		747FA1D3230A0F5600FE8BF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		747FA1DE230A0F5600FE8BF5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		34BCB8A7D2F6BB382E91AF39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MindValleyiOSChallenge-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B4EC8E2312A219F95D7871C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MindValleyiOSChallengeUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		888BF84B3602375C9744C38E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MindValleyiOSChallengeTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CB509A9CF4E4C862B50CD224 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MindValleyiOSChallenge/Pods-MindValleyiOSChallenge-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MindValleyiOSChallenge/Pods-MindValleyiOSChallenge-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MindValleyiOSChallenge/Pods-MindValleyiOSChallenge-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		747FA1BD230A0F5500FE8BF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74712301230A11270052B88E /* UIImage+Additions.swift in Sources */,
+				74712306230A11270052B88E /* UITableView+UIRefresehControl.swift in Sources */,
+				74712308230A11270052B88E /* UIImageView+Additions.swift in Sources */,
+				74712313230A11270052B88E /* Dictionary+Additions.swift in Sources */,
+				7471230F230A11270052B88E /* NSDate+Additions.swift in Sources */,
+				74712316230A11270052B88E /* JSONResponse.swift in Sources */,
+				74712303230A11270052B88E /* SearchTextField+TextPadding.swift in Sources */,
+				747122FD230A11270052B88E /* RouterProtocol.swift in Sources */,
+				747FA1C7230A0F5500FE8BF5 /* ViewController.swift in Sources */,
+				7471230D230A11270052B88E /* Encodable+Dictionary.swift in Sources */,
+				7471230C230A11270052B88E /* UIScrollView+Additions.swift in Sources */,
+				74712305230A11270052B88E /* UIColor+Additions.swift in Sources */,
+				7471230B230A11270052B88E /* UITextField+Additions.swift in Sources */,
+				74712302230A11270052B88E /* UIView+Additions.swift in Sources */,
+				74712309230A11270052B88E /* UIFont+CenturyGothic.swift in Sources */,
+				747122FF230A11270052B88E /* APIClient.swift in Sources */,
+				74712315230A11270052B88E /* AppConstants.swift in Sources */,
+				7471230E230A11270052B88E /* NSError+Additions.swift in Sources */,
+				7471230A230A11270052B88E /* NSArray+Additions.swift in Sources */,
+				74712304230A11270052B88E /* UIViewController+Additions.swift in Sources */,
+				74712312230A11270052B88E /* UITextView+Additions.swift in Sources */,
+				74712307230A11270052B88E /* UIApplication+Additions.swift in Sources */,
+				74712314230A11270052B88E /* RouterConstants.swift in Sources */,
+				747FA1C5230A0F5500FE8BF5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		747FA1D1230A0F5600FE8BF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				747FA1DA230A0F5600FE8BF5 /* MindValleyiOSChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		747FA1DC230A0F5600FE8BF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				747FA1E5230A0F5600FE8BF5 /* MindValleyiOSChallengeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		747FA1D7230A0F5600FE8BF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 747FA1C0230A0F5500FE8BF5 /* MindValleyiOSChallenge */;
+			targetProxy = 747FA1D6230A0F5600FE8BF5 /* PBXContainerItemProxy */;
+		};
+		747FA1E2230A0F5600FE8BF5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 747FA1C0230A0F5500FE8BF5 /* MindValleyiOSChallenge */;
+			targetProxy = 747FA1E1230A0F5600FE8BF5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		747FA1C8230A0F5500FE8BF5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				747FA1C9230A0F5500FE8BF5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		747FA1CD230A0F5600FE8BF5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				747FA1CE230A0F5600FE8BF5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		747FA1E7230A0F5600FE8BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		747FA1E8230A0F5600FE8BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		747FA1EA230A0F5600FE8BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60BCD9076D8504294D91AC73 /* Pods-MindValleyiOSChallenge.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU36H23ZAV;
+				INFOPLIST_FILE = MindValleyiOSChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MindValley.MindValleyiOSChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		747FA1EB230A0F5600FE8BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D59C3B1E9E33CF924F8960CF /* Pods-MindValleyiOSChallenge.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU36H23ZAV;
+				INFOPLIST_FILE = MindValleyiOSChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MindValley.MindValleyiOSChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		747FA1ED230A0F5600FE8BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CABCD97C5D43426215D40B8 /* Pods-MindValleyiOSChallengeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU36H23ZAV;
+				INFOPLIST_FILE = MindValleyiOSChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MindValley.MindValleyiOSChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindValleyiOSChallenge.app/MindValleyiOSChallenge";
+			};
+			name = Debug;
+		};
+		747FA1EE230A0F5600FE8BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0356ABDA5641CD592E98E768 /* Pods-MindValleyiOSChallengeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU36H23ZAV;
+				INFOPLIST_FILE = MindValleyiOSChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MindValley.MindValleyiOSChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindValleyiOSChallenge.app/MindValleyiOSChallenge";
+			};
+			name = Release;
+		};
+		747FA1F0230A0F5600FE8BF5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8137D0CA531503C19F6251FC /* Pods-MindValleyiOSChallengeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU36H23ZAV;
+				INFOPLIST_FILE = MindValleyiOSChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MindValley.MindValleyiOSChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindValleyiOSChallenge;
+			};
+			name = Debug;
+		};
+		747FA1F1230A0F5600FE8BF5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 721BA06C8C519BFF38ECCC94 /* Pods-MindValleyiOSChallengeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TU36H23ZAV;
+				INFOPLIST_FILE = MindValleyiOSChallengeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = MindValley.MindValleyiOSChallengeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MindValleyiOSChallenge;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		747FA1BC230A0F5500FE8BF5 /* Build configuration list for PBXProject "MindValleyiOSChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				747FA1E7230A0F5600FE8BF5 /* Debug */,
+				747FA1E8230A0F5600FE8BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		747FA1E9230A0F5600FE8BF5 /* Build configuration list for PBXNativeTarget "MindValleyiOSChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				747FA1EA230A0F5600FE8BF5 /* Debug */,
+				747FA1EB230A0F5600FE8BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		747FA1EC230A0F5600FE8BF5 /* Build configuration list for PBXNativeTarget "MindValleyiOSChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				747FA1ED230A0F5600FE8BF5 /* Debug */,
+				747FA1EE230A0F5600FE8BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		747FA1EF230A0F5600FE8BF5 /* Build configuration list for PBXNativeTarget "MindValleyiOSChallengeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				747FA1F0230A0F5600FE8BF5 /* Debug */,
+				747FA1F1230A0F5600FE8BF5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 747FA1B9230A0F5500FE8BF5 /* Project object */;
+}
