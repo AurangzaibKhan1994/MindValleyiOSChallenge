@@ -7,6 +7,8 @@ target 'MindValleyiOSChallenge' do
 
   # Pods for MindValleyiOSChallenge
 
+   pod 'LGRefreshView', '~> 1.0.0'
+
    pod 'Alamofire', :git => 'https://github.com/Alamofire/Alamofire.git', :branch => 'alamofire5'
 
    pod 'PromiseKit', '~> 6.0'

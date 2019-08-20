@@ -1,6 +1,8 @@
 ${PODS_ROOT}/Target Support Files/Pods-MindValleyiOSChallenge/Pods-MindValleyiOSChallenge-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/DACircularProgress/DACircularProgress.framework
 ${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework
+${BUILT_PRODUCTS_DIR}/LGRefreshView/LGRefreshView.framework
 ${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework
 ${BUILT_PRODUCTS_DIR}/PromiseKit/PromiseKit.framework
 ${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework
