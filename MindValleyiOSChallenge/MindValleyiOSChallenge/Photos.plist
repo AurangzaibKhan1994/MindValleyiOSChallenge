@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Caption</key>
+		<string>VCON?</string>
+		<key>Comment</key>
+		<string>Is Ray hinting that perhaps it&apos;s Vicki&apos;s turn next year?</string>
+		<key>Photo</key>
+		<string>vishenLakhiani1</string>
+	</dict>
+	<dict>
+		<key>Caption</key>
+		<string>Little and Large</string>
+		<key>Comment</key>
+		<string>Brian and Matt meet for the very first time.</string>
+		<key>Photo</key>
+		<string>raywenderlich1</string>
+	</dict>
+	<dict>
+		<key>Caption</key>
+		<string>Shiny Happy People</string>
+		<key>Comment</key>
+		<string>There are so many happy people at RWDevCon - it&apos;s amazing.</string>
+		<key>Photo</key>
+		<string>devslopes1</string>
+	</dict>
+	<dict>
+		<key>Caption</key>
+		<string>Need More Lanyards</string>
+		<key>Comment</key>
+		<string>The moment it all became very real. The conference really was happening!</string>
+		<key>Photo</key>
+		<string>medium1</string>
+	</dict>
+	<dict>
+		<key>Caption</key>
+		<string>Thank You Sponsors</string>
+		<key>Comment</key>
+		<string>Without you we wouldn&apos;t have been able to put on this amazing conference.</string>
+		<key>Photo</key>
+		<string>apple1</string>
+	</dict>
+</array>
+</plist>

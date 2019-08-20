@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="AdsCollectionViewCell" id="R6x-7Z-SYu" customClass="AdsCollectionViewCell" customModule="MindValleyiOSChallenge" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="248" height="221"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="248" height="221"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zmW-vD-KD9">
+                        <rect key="frame" x="0.0" y="0.0" width="248" height="221"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="252" verticalHuggingPriority="252" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="752" translatesAutoresizingMaskIntoConstraints="NO" id="yTN-xi-YF0">
+                                <rect key="frame" x="0.0" y="0.0" width="248" height="114"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Ad 1Ad 1Ad 1Ad 1Ad 1Ad 1Ad 1Ad 1Ad 1Ad 1Ad 1Ad 1Ad 1" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyz-W7-Uw8">
+                                <rect key="frame" x="10" y="124" width="228" height="40"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="NdB-MU-nE7" customClass="BaseLayoutConstraint" customModule="MindValleyiOSChallenge" customModuleProvider="target"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontNameTheme" value="robotoRegular"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontColorTheme" value="appDarkGray"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontSizeTheme" value="sizeMedium"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eQh-Pu-Kcn">
+                                <rect key="frame" x="10" y="166" width="228" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="HWs-0Q-zaO" customClass="BaseLayoutConstraint" customModule="MindValleyiOSChallenge" customModuleProvider="target"/>
+                                </constraints>
+                                <string key="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.72156862749999995" green="0.72156862749999995" blue="0.72156862749999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontNameTheme" value="robotoLight"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontColorTheme" value="appDarkGray"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontSizeTheme" value="sizeXSmall"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.50341109154929575" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="eQh-Pu-Kcn" secondAttribute="bottom" constant="10" id="1Jv-0Y-hZL" customClass="BaseLayoutConstraint" customModule="MindValleyiOSChallenge" customModuleProvider="target"/>
+                            <constraint firstItem="yTN-xi-YF0" firstAttribute="top" secondItem="zmW-vD-KD9" secondAttribute="top" id="21M-Zl-pUY"/>
+                            <constraint firstItem="dyz-W7-Uw8" firstAttribute="leading" secondItem="zmW-vD-KD9" secondAttribute="leading" constant="10" id="Jy2-Zp-k3P" customClass="BaseLayoutConstraint" customModule="MindValleyiOSChallenge" customModuleProvider="target"/>
+                            <constraint firstItem="yTN-xi-YF0" firstAttribute="leading" secondItem="zmW-vD-KD9" secondAttribute="leading" id="dgT-jn-7Ux"/>
+                            <constraint firstAttribute="trailing" secondItem="yTN-xi-YF0" secondAttribute="trailing" id="dhP-Qb-lP5"/>
+                            <constraint firstItem="eQh-Pu-Kcn" firstAttribute="top" secondItem="dyz-W7-Uw8" secondAttribute="bottom" constant="2" id="h29-cV-TlV" customClass="BaseLayoutConstraint" customModule="MindValleyiOSChallenge" customModuleProvider="target"/>
+                            <constraint firstItem="eQh-Pu-Kcn" firstAttribute="leading" secondItem="zmW-vD-KD9" secondAttribute="leading" constant="10" id="h5R-Zh-P3k" customClass="BaseLayoutConstraint" customModule="MindValleyiOSChallenge" customModuleProvider="target"/>
+                            <constraint firstAttribute="trailing" secondItem="eQh-Pu-Kcn" secondAttribute="trailing" constant="10" id="ng3-7n-qBy" customClass="BaseLayoutConstraint" customModule="MindValleyiOSChallenge" customModuleProvider="target"/>
+                            <constraint firstItem="dyz-W7-Uw8" firstAttribute="top" secondItem="yTN-xi-YF0" secondAttribute="bottom" constant="10" id="qbN-jm-8dl" customClass="BaseLayoutConstraint" customModule="MindValleyiOSChallenge" customModuleProvider="target"/>
+                            <constraint firstAttribute="trailing" secondItem="dyz-W7-Uw8" secondAttribute="trailing" constant="10" id="sWi-4w-0hu" customClass="BaseLayoutConstraint" customModule="MindValleyiOSChallenge" customModuleProvider="target"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="string" keyPath="_borderType" value="solid"/>
+                            <userDefinedRuntimeAttribute type="string" keyPath="borderThemeColor" value="appSeperator"/>
+                            <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                <color key="value" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="0.90000000000000002"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="2" height="2"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="2"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="zmW-vD-KD9" secondAttribute="bottom" id="Nbn-Pf-dGh"/>
+                <constraint firstItem="zmW-vD-KD9" firstAttribute="top" secondItem="R6x-7Z-SYu" secondAttribute="top" id="PUU-XY-HFd"/>
+                <constraint firstItem="zmW-vD-KD9" firstAttribute="leading" secondItem="R6x-7Z-SYu" secondAttribute="leading" id="XCF-8J-LoB"/>
+                <constraint firstAttribute="trailing" secondItem="zmW-vD-KD9" secondAttribute="trailing" id="yXs-Jy-thv"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="3za-Mn-opi"/>
+            <size key="customSize" width="248" height="221"/>
+            <connections>
+                <outlet property="adsView" destination="zmW-vD-KD9" id="dEK-6w-hto"/>
+                <outlet property="imgVwAds" destination="yTN-xi-YF0" id="xPW-vu-scb"/>
+                <outlet property="lblSubTitle" destination="eQh-Pu-Kcn" id="LfK-0u-RJj"/>
+                <outlet property="lblTitle" destination="dyz-W7-Uw8" id="xNZ-cK-gn7"/>
+            </connections>
+            <point key="canvasLocation" x="131" y="92.5"/>
+        </collectionViewCell>
+    </objects>
+</document>
