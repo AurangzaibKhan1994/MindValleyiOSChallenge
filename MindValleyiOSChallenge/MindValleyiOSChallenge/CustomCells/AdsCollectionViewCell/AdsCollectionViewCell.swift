@@ -14,6 +14,7 @@ class AdsCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var imgVwAds: UIImageView!
     @IBOutlet weak var lblTitle: UILabel!
     @IBOutlet weak var lblSubTitle: UILabel!
+    @IBOutlet weak var btnDownloadImage: UIButton!
     
     var isAnimated = false
 

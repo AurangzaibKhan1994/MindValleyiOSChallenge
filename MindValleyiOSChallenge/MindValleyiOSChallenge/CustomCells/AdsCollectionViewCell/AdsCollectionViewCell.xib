@@ -121,6 +121,7 @@
             <size key="customSize" width="248" height="221"/>
             <connections>
                 <outlet property="adsView" destination="zmW-vD-KD9" id="dEK-6w-hto"/>
+                <outlet property="btnDownloadImage" destination="aOo-mb-uWt" id="jSv-7L-ANJ"/>
                 <outlet property="imgVwAds" destination="yTN-xi-YF0" id="xPW-vu-scb"/>
                 <outlet property="lblSubTitle" destination="eQh-Pu-Kcn" id="LfK-0u-RJj"/>
                 <outlet property="lblTitle" destination="dyz-W7-Uw8" id="xNZ-cK-gn7"/>
