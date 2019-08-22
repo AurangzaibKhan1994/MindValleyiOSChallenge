@@ -2,4 +2,102 @@
 <Bucket
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Downloads/MyiOSAppStructure-master/MyAppStructure/ViewControllers/AdsModule/AdsController.swift"
+            timestampString = "588171976.4957269"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
+            landmarkName = "collectionView(_:heightForPhotoAtIndexPath:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MindValleyiOSChallenge.AdsController.collectionView(_: __C.UICollectionView, heightForPhotoAtIndexPath: Foundation.IndexPath) -&gt; CoreGraphics.CGFloat"
+                  moduleName = "MindValleyiOSChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aurangzaib/Downloads/MyiOSAppStructure-master/MyAppStructure/ViewControllers/AdsModule/AdsController.swift"
+                  timestampString = "588167191.090662"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "335">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MindValleyiOSChallenge.AdsController.collectionView(_: __C.UICollectionView, heightForPhotoAtIndexPath: Foundation.IndexPath) -&gt; CoreGraphics.CGFloat"
+                  moduleName = "MindValleyiOSChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aurangzaib/Downloads/MyiOSAppStructure-master/MyAppStructure/ViewControllers/AdsModule/AdsController.swift"
+                  timestampString = "588167191.092206"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "77"
+                  endingLineNumber = "77"
+                  offsetFromSymbolStart = "1659">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../../Downloads/MyiOSAppStructure-master/MyAppStructure/ViewControllers/AdsModule/AdsController.swift"
+            timestampString = "588171976.496201"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "134"
+            endingLineNumber = "134"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MindValleyiOSChallenge.AdsController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "MindValleyiOSChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aurangzaib/Downloads/MyiOSAppStructure-master/MyAppStructure/ViewControllers/AdsModule/AdsController.swift"
+                  timestampString = "588167190.8741961"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "1775">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "MindValleyiOSChallenge.AdsController.collectionView(_: __C.UICollectionView, cellForItemAt: Foundation.IndexPath) -&gt; __C.UICollectionViewCell"
+                  moduleName = "MindValleyiOSChallenge"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aurangzaib/Downloads/MyiOSAppStructure-master/MyAppStructure/ViewControllers/AdsModule/AdsController.swift"
+                  timestampString = "588167190.875769"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "5937">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

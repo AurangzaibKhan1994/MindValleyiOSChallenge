@@ -16,7 +16,6 @@
 		747122FB230A11270052B88E /* GOTHICI.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 747122CC230A11260052B88E /* GOTHICI.TTF */; };
 		747122FC230A11270052B88E /* GOTHICB0.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 747122CD230A11260052B88E /* GOTHICB0.TTF */; };
 		747122FD230A11270052B88E /* RouterProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122D0230A11260052B88E /* RouterProtocol.swift */; };
-		747122FF230A11270052B88E /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122D3230A11260052B88E /* APIClient.swift */; };
 		74712301230A11270052B88E /* UIImage+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122D7230A11260052B88E /* UIImage+Additions.swift */; };
 		74712302230A11270052B88E /* UIView+Additions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122D8230A11260052B88E /* UIView+Additions.swift */; };
 		74712303230A11270052B88E /* SearchTextField+TextPadding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747122D9230A11260052B88E /* SearchTextField+TextPadding.swift */; };
@@ -50,8 +49,6 @@
 		74712338230AE1140052B88E /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74712337230AE1140052B88E /* FontManager.swift */; };
 		7471233A230AE1610052B88E /* BaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74712339230AE1610052B88E /* BaseManager.swift */; };
 		7471233C230AEBCC0052B88E /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471233B230AEBCC0052B88E /* PinterestLayout.swift */; };
-		7471233F230B2D830052B88E /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7471233E230B2D830052B88E /* Photo.swift */; };
-		74712341230B45580052B88E /* Photos.plist in Resources */ = {isa = PBXBuildFile; fileRef = 74712340230B45570052B88E /* Photos.plist */; };
 		74712343230B76FB0052B88E /* AnimationUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74712342230B76FB0052B88E /* AnimationUtility.swift */; };
 		74712347230B826B0052B88E /* CollectionViewLoadingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74712345230B826B0052B88E /* CollectionViewLoadingCell.swift */; };
 		74712348230B826B0052B88E /* CollectionViewLoadingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74712346230B826B0052B88E /* CollectionViewLoadingCell.xib */; };
@@ -62,6 +59,11 @@
 		747FA1CF230A0F5600FE8BF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747FA1CD230A0F5600FE8BF5 /* LaunchScreen.storyboard */; };
 		747FA1DA230A0F5600FE8BF5 /* MindValleyiOSChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747FA1D9230A0F5600FE8BF5 /* MindValleyiOSChallengeTests.swift */; };
 		747FA1E5230A0F5600FE8BF5 /* MindValleyiOSChallengeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 747FA1E4230A0F5600FE8BF5 /* MindValleyiOSChallengeUITests.swift */; };
+		74A3A85C230C025100FECD05 /* PinterestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A3A85B230C025100FECD05 /* PinterestData.swift */; };
+		74A3A860230C154000FECD05 /* PinterestRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A3A85F230C154000FECD05 /* PinterestRouter.swift */; };
+		74A3A864230C161800FECD05 /* ParamConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A3A862230C161800FECD05 /* ParamConstant.swift */; };
+		74A3A865230C161800FECD05 /* NetworkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A3A863230C161800FECD05 /* NetworkConstant.swift */; };
+		74A3A867230C190600FECD05 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A3A866230C190600FECD05 /* APIClient.swift */; };
 		779EBAED6121ED8118AE702A /* Pods_MindValleyiOSChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091B736E43272236F46F4989 /* Pods_MindValleyiOSChallengeUITests.framework */; };
 		96F4DDACDF801923C3E10A84 /* Pods_MindValleyiOSChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A46C4B99A6DCCC66C13D812 /* Pods_MindValleyiOSChallenge.framework */; };
 /* End PBXBuildFile section */
@@ -99,7 +101,6 @@
 		747122CC230A11260052B88E /* GOTHICI.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICI.TTF; sourceTree = "<group>"; };
 		747122CD230A11260052B88E /* GOTHICB0.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = GOTHICB0.TTF; sourceTree = "<group>"; };
 		747122D0230A11260052B88E /* RouterProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterProtocol.swift; sourceTree = "<group>"; };
-		747122D3230A11260052B88E /* APIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		747122D7230A11260052B88E /* UIImage+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Additions.swift"; sourceTree = "<group>"; };
 		747122D8230A11260052B88E /* UIView+Additions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Additions.swift"; sourceTree = "<group>"; };
 		747122D9230A11260052B88E /* SearchTextField+TextPadding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SearchTextField+TextPadding.swift"; sourceTree = "<group>"; };
@@ -133,8 +134,6 @@
 		74712337230AE1140052B88E /* FontManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
 		74712339230AE1610052B88E /* BaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseManager.swift; sourceTree = "<group>"; };
 		7471233B230AEBCC0052B88E /* PinterestLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
-		7471233E230B2D830052B88E /* Photo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
-		74712340230B45570052B88E /* Photos.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Photos.plist; sourceTree = "<group>"; };
 		74712342230B76FB0052B88E /* AnimationUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationUtility.swift; sourceTree = "<group>"; };
 		74712345230B826B0052B88E /* CollectionViewLoadingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewLoadingCell.swift; sourceTree = "<group>"; };
 		74712346230B826B0052B88E /* CollectionViewLoadingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CollectionViewLoadingCell.xib; sourceTree = "<group>"; };
@@ -151,6 +150,11 @@
 		747FA1E0230A0F5600FE8BF5 /* MindValleyiOSChallengeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindValleyiOSChallengeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		747FA1E4230A0F5600FE8BF5 /* MindValleyiOSChallengeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindValleyiOSChallengeUITests.swift; sourceTree = "<group>"; };
 		747FA1E6230A0F5600FE8BF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74A3A85B230C025100FECD05 /* PinterestData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestData.swift; sourceTree = "<group>"; };
+		74A3A85F230C154000FECD05 /* PinterestRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestRouter.swift; sourceTree = "<group>"; };
+		74A3A862230C161800FECD05 /* ParamConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParamConstant.swift; sourceTree = "<group>"; };
+		74A3A863230C161800FECD05 /* NetworkConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstant.swift; sourceTree = "<group>"; };
+		74A3A866230C190600FECD05 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
 		8137D0CA531503C19F6251FC /* Pods-MindValleyiOSChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindValleyiOSChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-MindValleyiOSChallengeUITests/Pods-MindValleyiOSChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D59C3B1E9E33CF924F8960CF /* Pods-MindValleyiOSChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindValleyiOSChallenge.release.xcconfig"; path = "Target Support Files/Pods-MindValleyiOSChallenge/Pods-MindValleyiOSChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -224,6 +228,7 @@
 		747122CE230A11260052B88E /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				74A3A861230C161800FECD05 /* Network Enums */,
 				747122CF230A11260052B88E /* Routers */,
 				747122D2230A11260052B88E /* APIClient */,
 			);
@@ -235,6 +240,7 @@
 			isa = PBXGroup;
 			children = (
 				747122D0230A11260052B88E /* RouterProtocol.swift */,
+				74A3A85F230C154000FECD05 /* PinterestRouter.swift */,
 			);
 			path = Routers;
 			sourceTree = "<group>";
@@ -242,7 +248,7 @@
 		747122D2230A11260052B88E /* APIClient */ = {
 			isa = PBXGroup;
 			children = (
-				747122D3230A11260052B88E /* APIClient.swift */,
+				74A3A866230C190600FECD05 /* APIClient.swift */,
 			);
 			path = APIClient;
 			sourceTree = "<group>";
@@ -390,7 +396,7 @@
 		7471233D230B2D690052B88E /* AdsData */ = {
 			isa = PBXGroup;
 			children = (
-				7471233E230B2D830052B88E /* Photo.swift */,
+				74A3A85B230C025100FECD05 /* PinterestData.swift */,
 			);
 			path = AdsData;
 			sourceTree = "<group>";
@@ -429,7 +435,6 @@
 		747FA1C3230A0F5500FE8BF5 /* MindValleyiOSChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				74712340230B45570052B88E /* Photos.plist */,
 				74712326230AD9590052B88E /* App Navigation */,
 				747122EA230A11260052B88E /* Constants */,
 				7471231B230AD1080052B88E /* CustomCells */,
@@ -462,6 +467,15 @@
 				747FA1E6230A0F5600FE8BF5 /* Info.plist */,
 			);
 			path = MindValleyiOSChallengeUITests;
+			sourceTree = "<group>";
+		};
+		74A3A861230C161800FECD05 /* Network Enums */ = {
+			isa = PBXGroup;
+			children = (
+				74A3A862230C161800FECD05 /* ParamConstant.swift */,
+				74A3A863230C161800FECD05 /* NetworkConstant.swift */,
+			);
+			path = "Network Enums";
 			sourceTree = "<group>";
 		};
 		7D2DDFCD1ADC290542DC1F15 /* Frameworks */ = {
@@ -594,7 +608,6 @@
 				747FA1CA230A0F5500FE8BF5 /* Main.storyboard in Resources */,
 				747122F9230A11270052B88E /* Century Gothic.ttf in Resources */,
 				747122F8230A11270052B88E /* GOTHICB.ttf in Resources */,
-				74712341230B45580052B88E /* Photos.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -706,17 +719,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				74712301230A11270052B88E /* UIImage+Additions.swift in Sources */,
-				7471233F230B2D830052B88E /* Photo.swift in Sources */,
 				74712306230A11270052B88E /* UITableView+UIRefresehControl.swift in Sources */,
 				74712308230A11270052B88E /* UIImageView+Additions.swift in Sources */,
+				74A3A867230C190600FECD05 /* APIClient.swift in Sources */,
 				74712336230AE09A0052B88E /* DesignUtility.swift in Sources */,
 				74712313230A11270052B88E /* Dictionary+Additions.swift in Sources */,
 				7471230F230A11270052B88E /* NSDate+Additions.swift in Sources */,
 				74712316230A11270052B88E /* JSONResponse.swift in Sources */,
 				74712303230A11270052B88E /* SearchTextField+TextPadding.swift in Sources */,
 				747122FD230A11270052B88E /* RouterProtocol.swift in Sources */,
+				74A3A865230C161800FECD05 /* NetworkConstant.swift in Sources */,
 				74712330230ADBBC0052B88E /* AdsController.swift in Sources */,
 				747FA1C7230A0F5500FE8BF5 /* ViewController.swift in Sources */,
+				74A3A864230C161800FECD05 /* ParamConstant.swift in Sources */,
+				74A3A860230C154000FECD05 /* PinterestRouter.swift in Sources */,
 				7471230D230A11270052B88E /* Encodable+Dictionary.swift in Sources */,
 				7471230C230A11270052B88E /* UIScrollView+Additions.swift in Sources */,
 				74712305230A11270052B88E /* UIColor+Additions.swift in Sources */,
@@ -726,7 +742,6 @@
 				74712309230A11270052B88E /* UIFont+CenturyGothic.swift in Sources */,
 				74712338230AE1140052B88E /* FontManager.swift in Sources */,
 				74712347230B826B0052B88E /* CollectionViewLoadingCell.swift in Sources */,
-				747122FF230A11270052B88E /* APIClient.swift in Sources */,
 				7471233A230AE1610052B88E /* BaseManager.swift in Sources */,
 				74712315230A11270052B88E /* AppConstants.swift in Sources */,
 				74712334230ADFED0052B88E /* BaseLayoutConstraint.swift in Sources */,
@@ -743,6 +758,7 @@
 				7471232C230AD9590052B88E /* MainCoordinator.swift in Sources */,
 				747FA1C5230A0F5500FE8BF5 /* AppDelegate.swift in Sources */,
 				7471232D230AD9590052B88E /* Storyboarded.swift in Sources */,
+				74A3A85C230C025100FECD05 /* PinterestData.swift in Sources */,
 				74712343230B76FB0052B88E /* AnimationUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
