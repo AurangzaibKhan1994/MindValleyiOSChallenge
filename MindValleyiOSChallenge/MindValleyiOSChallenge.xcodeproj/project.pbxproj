@@ -64,6 +64,7 @@
 		74A3A864230C161800FECD05 /* ParamConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A3A862230C161800FECD05 /* ParamConstant.swift */; };
 		74A3A865230C161800FECD05 /* NetworkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A3A863230C161800FECD05 /* NetworkConstant.swift */; };
 		74A3A867230C190600FECD05 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74A3A866230C190600FECD05 /* APIClient.swift */; };
+		74D15BFD230F0DBD0096565F /* AdsControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74D15BFC230F0DBD0096565F /* AdsControllerExtension.swift */; };
 		779EBAED6121ED8118AE702A /* Pods_MindValleyiOSChallengeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091B736E43272236F46F4989 /* Pods_MindValleyiOSChallengeUITests.framework */; };
 		96F4DDACDF801923C3E10A84 /* Pods_MindValleyiOSChallenge.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A46C4B99A6DCCC66C13D812 /* Pods_MindValleyiOSChallenge.framework */; };
 /* End PBXBuildFile section */
@@ -155,6 +156,7 @@
 		74A3A862230C161800FECD05 /* ParamConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParamConstant.swift; sourceTree = "<group>"; };
 		74A3A863230C161800FECD05 /* NetworkConstant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkConstant.swift; sourceTree = "<group>"; };
 		74A3A866230C190600FECD05 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		74D15BFC230F0DBD0096565F /* AdsControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsControllerExtension.swift; sourceTree = "<group>"; };
 		8137D0CA531503C19F6251FC /* Pods-MindValleyiOSChallengeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindValleyiOSChallengeUITests.debug.xcconfig"; path = "Target Support Files/Pods-MindValleyiOSChallengeUITests/Pods-MindValleyiOSChallengeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		D59C3B1E9E33CF924F8960CF /* Pods-MindValleyiOSChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MindValleyiOSChallenge.release.xcconfig"; path = "Target Support Files/Pods-MindValleyiOSChallenge/Pods-MindValleyiOSChallenge.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -363,6 +365,7 @@
 			isa = PBXGroup;
 			children = (
 				7471232F230ADBBC0052B88E /* AdsController.swift */,
+				74D15BFC230F0DBD0096565F /* AdsControllerExtension.swift */,
 			);
 			path = AdsModule;
 			sourceTree = "<group>";
@@ -759,6 +762,7 @@
 				747FA1C5230A0F5500FE8BF5 /* AppDelegate.swift in Sources */,
 				7471232D230AD9590052B88E /* Storyboarded.swift in Sources */,
 				74A3A85C230C025100FECD05 /* PinterestData.swift in Sources */,
+				74D15BFD230F0DBD0096565F /* AdsControllerExtension.swift in Sources */,
 				74712343230B76FB0052B88E /* AnimationUtility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
