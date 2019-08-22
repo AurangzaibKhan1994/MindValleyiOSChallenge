@@ -1,9 +1,9 @@
 //
 //  Storyboarded.swift
-//  DL Instructor
+//  MindValleyiOSChallenge
 //
-//  Created by Asad Khan on 3/22/19.
-//  Copyright © 2019 Attribes. All rights reserved.
+//  Created by Aurangzaib on 19/08/2019.
+//  Copyright © 2019 Aurangzaib. All rights reserved.
 //
 
 import Foundation
@@ -11,7 +11,6 @@ import Foundation
 import UIKit
 
 enum StoryboardType:String{
-    
     case Main
     case LaunchScreen
 }

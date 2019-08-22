@@ -26,8 +26,16 @@
                                 <rect key="frame" x="0.0" y="0.0" width="248" height="114"/>
                                 <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Ad 1Ad 1Ad 1Ad 1Ad 1Ad 1Ad 1Ad 1Ad 1Ad 1Ad 1Ad 1Ad 1" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyz-W7-Uw8">
-                                <rect key="frame" x="10" y="124" width="228" height="40"/>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="2Zs-Ft-eA4">
+                                <rect key="frame" x="0.0" y="216" width="248" height="5"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="5" id="OG5-WR-gpx" customClass="BaseLayoutConstraint" customModule="MindValleyiOSChallenge" customModuleProvider="target"/>
+                                </constraints>
+                                <color key="progressTintColor" red="0.57706380131854251" green="0.45380620252597836" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="trackTintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </progressView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="Ad 1" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dyz-W7-Uw8">
+                                <rect key="frame" x="10" y="124" width="203" height="40"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="40" id="NdB-MU-nE7" customClass="BaseLayoutConstraint" customModule="MindValleyiOSChallenge" customModuleProvider="target"/>
                                 </constraints>
@@ -55,6 +63,17 @@
                                     <userDefinedRuntimeAttribute type="string" keyPath="fontSizeTheme" value="sizeXSmall"/>
                                 </userDefinedRuntimeAttributes>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontForContentSizeCategory="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VSJ-w5-6Sz">
+                                <rect key="frame" x="223" y="177" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontNameTheme" value="robotoRegular"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontColorTheme" value="appDarkGray"/>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="fontSizeTheme" value="sizeMedium"/>
+                                </userDefinedRuntimeAttributes>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" verticalCompressionResistancePriority="751" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aOo-mb-uWt">
                                 <rect key="frame" x="208" y="181" width="30" height="30"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -64,13 +83,22 @@
                                 </constraints>
                                 <color key="tintColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" image="download"/>
+                                <connections>
+                                    <action selector="actionDownloadImage:" destination="R6x-7Z-SYu" eventType="touchUpInside" id="vqR-wF-upS"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="0.50341109154929575" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="eQh-Pu-Kcn" secondAttribute="bottom" constant="10" id="1Jv-0Y-hZL" customClass="BaseLayoutConstraint" customModule="MindValleyiOSChallenge" customModuleProvider="target"/>
                             <constraint firstItem="yTN-xi-YF0" firstAttribute="top" secondItem="zmW-vD-KD9" secondAttribute="top" id="21M-Zl-pUY"/>
+                            <constraint firstItem="VSJ-w5-6Sz" firstAttribute="leading" secondItem="dyz-W7-Uw8" secondAttribute="trailing" constant="10" id="BV9-SE-VZH"/>
+                            <constraint firstItem="VSJ-w5-6Sz" firstAttribute="centerX" secondItem="aOo-mb-uWt" secondAttribute="centerX" id="IhV-mX-uxY"/>
                             <constraint firstItem="dyz-W7-Uw8" firstAttribute="leading" secondItem="zmW-vD-KD9" secondAttribute="leading" constant="10" id="Jy2-Zp-k3P" customClass="BaseLayoutConstraint" customModule="MindValleyiOSChallenge" customModuleProvider="target"/>
+                            <constraint firstItem="2Zs-Ft-eA4" firstAttribute="leading" secondItem="zmW-vD-KD9" secondAttribute="leading" id="Tjw-aH-FeP"/>
+                            <constraint firstAttribute="bottom" secondItem="2Zs-Ft-eA4" secondAttribute="bottom" id="Wvq-kC-HQW"/>
+                            <constraint firstAttribute="trailing" secondItem="2Zs-Ft-eA4" secondAttribute="trailing" id="YqO-nt-xjB"/>
+                            <constraint firstItem="aOo-mb-uWt" firstAttribute="top" secondItem="VSJ-w5-6Sz" secondAttribute="bottom" constant="4" id="acP-dT-Y0h"/>
                             <constraint firstItem="yTN-xi-YF0" firstAttribute="leading" secondItem="zmW-vD-KD9" secondAttribute="leading" id="dgT-jn-7Ux"/>
                             <constraint firstAttribute="trailing" secondItem="yTN-xi-YF0" secondAttribute="trailing" id="dhP-Qb-lP5"/>
                             <constraint firstItem="eQh-Pu-Kcn" firstAttribute="top" secondItem="dyz-W7-Uw8" secondAttribute="bottom" constant="2" id="h29-cV-TlV" customClass="BaseLayoutConstraint" customModule="MindValleyiOSChallenge" customModuleProvider="target"/>
@@ -78,7 +106,6 @@
                             <constraint firstAttribute="trailing" secondItem="aOo-mb-uWt" secondAttribute="trailing" constant="10" id="nO6-pg-fbV"/>
                             <constraint firstItem="aOo-mb-uWt" firstAttribute="bottom" secondItem="eQh-Pu-Kcn" secondAttribute="bottom" id="q16-k4-T5w"/>
                             <constraint firstItem="dyz-W7-Uw8" firstAttribute="top" secondItem="yTN-xi-YF0" secondAttribute="bottom" constant="10" id="qbN-jm-8dl" customClass="BaseLayoutConstraint" customModule="MindValleyiOSChallenge" customModuleProvider="target"/>
-                            <constraint firstAttribute="trailing" secondItem="dyz-W7-Uw8" secondAttribute="trailing" constant="10" id="sWi-4w-0hu" customClass="BaseLayoutConstraint" customModule="MindValleyiOSChallenge" customModuleProvider="target"/>
                             <constraint firstItem="aOo-mb-uWt" firstAttribute="leading" secondItem="eQh-Pu-Kcn" secondAttribute="trailing" constant="10" id="ujb-w8-7jb"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
@@ -122,7 +149,9 @@
             <connections>
                 <outlet property="adsView" destination="zmW-vD-KD9" id="dEK-6w-hto"/>
                 <outlet property="btnDownloadImage" destination="aOo-mb-uWt" id="jSv-7L-ANJ"/>
+                <outlet property="downloadProgress" destination="2Zs-Ft-eA4" id="HqD-1b-MCZ"/>
                 <outlet property="imgVwAds" destination="yTN-xi-YF0" id="xPW-vu-scb"/>
+                <outlet property="lblDownloadProgress" destination="VSJ-w5-6Sz" id="2SH-43-Yw9"/>
                 <outlet property="lblSubTitle" destination="eQh-Pu-Kcn" id="LfK-0u-RJj"/>
                 <outlet property="lblTitle" destination="dyz-W7-Uw8" id="xNZ-cK-gn7"/>
             </connections>
