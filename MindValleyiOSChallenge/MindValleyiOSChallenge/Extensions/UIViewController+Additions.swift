@@ -1,9 +1,9 @@
 //
 //  UIImageView+Additions.swift
-//  Generics
+//  MindValleyiOSChallenge
 //
-//  Created by Usman Tarar on 10/08/2017.
-//  Copyright © 2017 Usman Tarar. All rights reserved.
+//  Created by Aurangzaib on 19/08/2019.
+//  Copyright © 2019 Aurangzaib. All rights reserved.
 //
 
 import UIKit
@@ -43,24 +43,18 @@ extension UIViewController {
     
     
     func hideKeyboardWhenTappedAround() {
-        
         let tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(UIViewController.hideKeyboard))
         tap.cancelsTouchesInView = false
         view.addGestureRecognizer(tap)
-        
     }
     
     @objc func hideKeyboard() {
-        
         view.endEditing(true)
-        
     }
     
     func addCancelButton() {
-        
         let cancelButton = UIBarButtonItem(image: UIImage(named: "BackArrow"), style: .plain, target: self, action: #selector(dismissMe))
         navigationItem.leftBarButtonItem = cancelButton
-        
     }
     
     class func topVC(_ base: UIViewController? = UIApplication.shared.windows.first!.rootViewController) -> UIViewController? {
@@ -79,23 +73,18 @@ extension UIViewController {
     }
     
     fileprivate func dismissPresentedController() {
-        
         self.dismiss(animated: true, completion: { () -> Void in
-            
         })
     }
     
     fileprivate func dismissPushedController() {
-        
         _ = self.navigationController?.popViewController(animated: true)
-        
     }
-    
     
     func showAlertWith(title: String, message: String) {
         let alertController = UIAlertController(title: title, message:
-            message, preferredStyle: UIAlertControllerStyle.alert)
-        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default,handler: nil))
+            message, preferredStyle: UIAlertController.Style.alert)
+        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default,handler: nil))
         //        self.presentViewController(alertController, animated: true, completion: nil)
         
         if var topController = UIApplication.shared.keyWindow?.rootViewController {
@@ -109,8 +98,8 @@ extension UIViewController {
     
     func showRetryAlertWithCompletionBlock(title: String, message: String, completion: ((UIAlertAction) -> Void)? = nil) {
         let alertController = UIAlertController(title: title, message:
-            message, preferredStyle: UIAlertControllerStyle.alert)
-        alertController.addAction(UIAlertAction(title: "Retry", style: UIAlertActionStyle.default, handler: completion))
+            message, preferredStyle: UIAlertController.Style.alert)
+        alertController.addAction(UIAlertAction(title: "Retry", style: UIAlertAction.Style.default, handler: completion))
         
         if var topController = UIApplication.shared.keyWindow?.rootViewController {
             while let presentedViewController = topController.presentedViewController {
@@ -123,8 +112,8 @@ extension UIViewController {
     
     func showRetryAndCancelAlertWithCompletionBlock(title: String, message: String, completion: ((UIAlertAction) -> Void)? = nil) {
         let alertController = UIAlertController(title: title, message:
-            message, preferredStyle: UIAlertControllerStyle.alert)
-        alertController.addAction(UIAlertAction(title: "Retry", style: UIAlertActionStyle.default, handler: completion))
+            message, preferredStyle: UIAlertController.Style.alert)
+        alertController.addAction(UIAlertAction(title: "Retry", style: UIAlertAction.Style.default, handler: completion))
         
         alertController.addAction(UIAlertAction(title: "Cancel", style: .cancel, handler: { (action: UIAlertAction!) in
         }))
@@ -141,12 +130,12 @@ extension UIViewController {
     func showAlertWithCompletionBlock(title: String, message: String,positiveButtonTile : String? = "Ok",negativeButtonTitle:String? = "Cancel", positiveCompletion: ((UIAlertAction) -> Void)? = nil,negativeCompletion:((UIAlertAction) -> Void)? = nil) {
         
         let alertController = UIAlertController(title: title, message:
-            message, preferredStyle: UIAlertControllerStyle.alert)
+            message, preferredStyle: UIAlertController.Style.alert)
         
         
-        alertController.addAction(UIAlertAction(title: positiveButtonTile!, style: UIAlertActionStyle.default, handler: positiveCompletion))
+        alertController.addAction(UIAlertAction(title: positiveButtonTile!, style: UIAlertAction.Style.default, handler: positiveCompletion))
         
-        alertController.addAction(UIAlertAction(title: negativeButtonTitle!, style: UIAlertActionStyle.destructive, handler: negativeCompletion))
+        alertController.addAction(UIAlertAction(title: negativeButtonTitle!, style: UIAlertAction.Style.destructive, handler: negativeCompletion))
         
         if var topController = UIApplication.shared.keyWindow?.rootViewController {
             while let presentedViewController = topController.presentedViewController {
@@ -159,8 +148,8 @@ extension UIViewController {
     
     func showAlertWithCompletionBlock(title: String, message: String,buttonTitle : String? = "OK", completion: ((UIAlertAction) -> Void)? = nil) {
         let alertController = UIAlertController(title: title, message:
-            message, preferredStyle: UIAlertControllerStyle.alert)
-        alertController.addAction(UIAlertAction(title: buttonTitle!, style: UIAlertActionStyle.default, handler: completion))
+            message, preferredStyle: UIAlertController.Style.alert)
+        alertController.addAction(UIAlertAction(title: buttonTitle!, style: UIAlertAction.Style.default, handler: completion))
         //        self.presentViewController(alertController, animated: true, completion: nil)
         
         if var topController = UIApplication.shared.keyWindow?.rootViewController {
@@ -174,8 +163,8 @@ extension UIViewController {
     
     func showAlertOnSelfWith(title: String, message: String) {
         let alertController = UIAlertController(title: title, message:
-            message, preferredStyle: UIAlertControllerStyle.alert)
-        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertActionStyle.default,handler: nil))
+            message, preferredStyle: UIAlertController.Style.alert)
+        alertController.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default,handler: nil))
         self.present(alertController, animated: true, completion: nil)
     }
     
@@ -185,8 +174,10 @@ extension UIViewController {
         progressHUD.label.text = title
         progressHUD.detailsLabel.text = detail
     }
-
+    
     func hideGlobalHudAddedFromAppDelegate() {
-        MBProgressHUD.hide(for: self.view, animated: true)
+        DispatchQueue.main.async {
+            MBProgressHUD.hide(for: self.view, animated: true)
+        }
     }
 }

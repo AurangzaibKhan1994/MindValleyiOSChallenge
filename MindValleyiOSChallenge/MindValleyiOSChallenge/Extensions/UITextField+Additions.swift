@@ -18,13 +18,13 @@ extension UITextField {
             return self.placeHolderColor
         }
         set {
-            self.attributedPlaceholder = NSAttributedString(string:self.placeholder != nil ? self.placeholder! : "", attributes:[NSAttributedStringKey.foregroundColor: newValue!])
+            self.attributedPlaceholder = NSAttributedString(string:self.placeholder != nil ? self.placeholder! : "", attributes:[NSAttributedString.Key.foregroundColor: newValue!])
         }
     }
     
     
     func setPlaceHolderColor(color: UIColor){
-        self.attributedPlaceholder = NSAttributedString(string: self.placeholder!, attributes: [NSAttributedStringKey.foregroundColor : color])
+        self.attributedPlaceholder = NSAttributedString(string: self.placeholder!, attributes: [NSAttributedString.Key.foregroundColor : color])
     }
     
     func textByTrimmingWhiteSpaceCharacters() -> String? {
@@ -45,8 +45,8 @@ extension UITextField {
         }
     }
     @objc func fix(textField: UITextField) {
-        let t = textField.text
-        textField.text = t?.safelyLimitedTo(length: maxLength)
+//        let t = textField.text
+//        textField.text = t?.safelyLimitedTo(length: maxLength)
     }
     
     func setBottomBorder() {

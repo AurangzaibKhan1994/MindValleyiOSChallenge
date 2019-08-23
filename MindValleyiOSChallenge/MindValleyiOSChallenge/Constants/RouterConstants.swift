@@ -34,9 +34,9 @@ struct Router {
             
             switch appMode {
             case .development:
-                baseUrl = "https://qulabro-ror.attribes.com/api/v2/" // "https://qulabro.attribes.com/v1"
+                baseUrl = ""
             case .staging:
-                baseUrl = "https://qa-api.visconn.com/api/v2/" // "https://visconn.attribes.com/v1"
+                baseUrl = ""
             case .live:
                 baseUrl = ""
                 
@@ -49,20 +49,7 @@ struct Router {
     }
     
     struct APIParameterKey {
-        static let user_password = "password"
         static let email = "email"
-        static let deviceType = "device_type"
-        static let code = "verification_code"
-        static let userID = "user_id"
-        static let firstName = "first_name"
-        static let lastName = "last_name"
-        static let companyName = "name"
-        static let companyContactNumber = "contactNumber"
-        static let companyID = "company_id"
-        static let workspace = "workspace"
-        static let invites  = "emails"
-        static let fcmToken = "fcm_token"
-        static let status = "status"
     }
 }
 

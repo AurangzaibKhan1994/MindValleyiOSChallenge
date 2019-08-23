@@ -40,7 +40,7 @@ extension MainCoordinator {
     }
     
     func mainController(){
-        let vc = AdsController.instantiate(storyboard: .Main)
+        let vc = PinterestController.instantiate(storyboard: .Main)
         vc.coordinator = self
         navigationController.setViewControllers([vc], animated: true)
     }
