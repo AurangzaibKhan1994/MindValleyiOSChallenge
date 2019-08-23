@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Pinterest Controller-->
+        <scene sceneID="Sfo-PH-p3L">
+            <objects>
+                <viewController storyboardIdentifier="PinterestController" id="l7y-uC-sQd" customClass="PinterestController" customModule="MindValleyiOSChallenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="bOn-7l-cPj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mindvalleyLogo2" translatesAutoresizingMaskIntoConstraints="NO" id="xxk-Z9-z27">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </imageView>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="L8B-Qy-WSh">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <collectionViewLayout key="collectionViewLayout" id="K7p-6M-znc" customClass="PinterestLayout" customModule="MindValleyiOSChallenge" customModuleProvider="target"/>
+                                <cells/>
+                                <connections>
+                                    <outlet property="dataSource" destination="l7y-uC-sQd" id="8D2-hX-URD"/>
+                                    <outlet property="delegate" destination="l7y-uC-sQd" id="OSF-hJ-tUJ"/>
+                                </connections>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="xxk-Z9-z27" firstAttribute="top" secondItem="bOn-7l-cPj" secondAttribute="top" id="H9e-n1-B8c"/>
+                            <constraint firstItem="L8B-Qy-WSh" firstAttribute="top" secondItem="2l3-xB-bIJ" secondAttribute="top" id="Hin-wV-53i"/>
+                            <constraint firstItem="xxk-Z9-z27" firstAttribute="leading" secondItem="2l3-xB-bIJ" secondAttribute="leading" id="J7y-Uv-Vur"/>
+                            <constraint firstAttribute="trailing" secondItem="L8B-Qy-WSh" secondAttribute="trailing" id="KSO-af-SXT"/>
+                            <constraint firstItem="L8B-Qy-WSh" firstAttribute="leading" secondItem="bOn-7l-cPj" secondAttribute="leading" id="Tkd-ee-x2G"/>
+                            <constraint firstAttribute="bottom" secondItem="L8B-Qy-WSh" secondAttribute="bottom" id="dzx-34-fgZ"/>
+                            <constraint firstItem="xxk-Z9-z27" firstAttribute="bottom" secondItem="2l3-xB-bIJ" secondAttribute="bottom" id="snn-Nm-Ppn"/>
+                            <constraint firstItem="xxk-Z9-z27" firstAttribute="trailing" secondItem="2l3-xB-bIJ" secondAttribute="trailing" id="wId-mc-gri"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="2l3-xB-bIJ"/>
+                    </view>
+                    <connections>
+                        <outlet property="collectionView" destination="L8B-Qy-WSh" id="CUe-bg-Uvj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PUe-4o-dPA" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-354.39999999999998" y="53.523238380809602"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="7eC-ay-iPS">
+            <objects>
+                <navigationController navigationBarHidden="YES" id="Oka-bY-mHk" sceneMemberID="viewController">
+                    <nil key="simulatedTopBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Lmo-hj-9eU">
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="VKR-3N-5SC" kind="relationship" relationship="rootViewController" id="1JE-MQ-4Jj"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Zv1-Y0-tBr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2041" y="55"/>
+        </scene>
+        <!--Splash Controller-->
+        <scene sceneID="EFD-Gs-Q2z">
+            <objects>
+                <viewController storyboardIdentifier="SplashController" id="VKR-3N-5SC" customClass="SplashController" customModule="MindValleyiOSChallenge" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lt2-Yf-IjT">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="m7q-pl-5MP">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="862"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="mindvalleyLogo1" translatesAutoresizingMaskIntoConstraints="NO" id="6vv-QY-GOX">
+                                <rect key="frame" x="107" y="393" width="200" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="7zF-Zh-6vv" customClass="BaseLayoutConstraint" customModule="MindValleyiOSChallenge" customModuleProvider="target"/>
+                                    <constraint firstAttribute="height" constant="120" id="omJ-05-ZJe" customClass="BaseLayoutConstraint" customModule="MindValleyiOSChallenge" customModuleProvider="target"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="m7q-pl-5MP" firstAttribute="top" secondItem="lt2-Yf-IjT" secondAttribute="top" id="GiG-aI-8kd"/>
+                            <constraint firstItem="m7q-pl-5MP" firstAttribute="leading" secondItem="N1u-Q7-JRL" secondAttribute="leading" id="TiL-G7-D0N"/>
+                            <constraint firstItem="m7q-pl-5MP" firstAttribute="trailing" secondItem="N1u-Q7-JRL" secondAttribute="trailing" id="YyY-m4-dd5"/>
+                            <constraint firstItem="6vv-QY-GOX" firstAttribute="centerY" secondItem="N1u-Q7-JRL" secondAttribute="centerY" id="Z1t-oJ-Eag"/>
+                            <constraint firstItem="m7q-pl-5MP" firstAttribute="bottom" secondItem="N1u-Q7-JRL" secondAttribute="bottom" id="cod-GH-Qvx"/>
+                            <constraint firstItem="6vv-QY-GOX" firstAttribute="centerX" secondItem="N1u-Q7-JRL" secondAttribute="centerX" id="nXG-UA-VYn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="N1u-Q7-JRL"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="jH5-dP-b4k"/>
+                    <connections>
+                        <outlet property="imgBackground" destination="m7q-pl-5MP" id="c80-lC-UsI"/>
+                        <outlet property="splashLogo" destination="6vv-QY-GOX" id="qO3-lA-sgi"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OUE-K8-jpC" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1206" y="54"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="mindvalleyLogo1" width="960" height="540"/>
+        <image name="mindvalleyLogo2" width="320" height="567"/>
+    </resources>
+</document>
